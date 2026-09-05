@@ -1031,7 +1031,8 @@ function MysteriousUI:CreateTab(config)
     local contentLayout = create("UIListLayout", {
         SortOrder = Enum.SortOrder.LayoutOrder,
         Padding = UDim.new(0, 4),
-    }).Parent = tabPage
+    })
+    contentLayout.Parent = tabPage
     create("UIPadding", {PaddingTop = UDim.new(0, 4), PaddingBottom = UDim.new(0, 20)}).Parent = tabPage
 
     tab.Button = tabBtn
@@ -1206,7 +1207,8 @@ function MysteriousUI:CreateParagraph(tab, data)
     create("UIPadding", {PaddingTop = UDim.new(0, 10), PaddingBottom = UDim.new(0, 10), PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12)}).Parent = frame
     create("UIStroke", {Color = self.Theme.Stroke, Thickness = 1}).Parent = frame
 
-    local layout = create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4)}).Parent = frame
+    local layout = create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 4)})
+    layout.Parent = frame
 
     if data.Title then
         create("TextLabel", {
@@ -1670,7 +1672,8 @@ function MysteriousUI:CreateDropdown(tab, data)
     create("UICorner", {CornerRadius = UDim.new(0, 6)}).Parent = list
     create("UIStroke", {Color = self.Theme.Stroke, Thickness = 1}).Parent = list
     create("UIPadding", {PaddingTop = UDim.new(0, 4), PaddingBottom = UDim.new(0, 4)}).Parent = list
-    local listLayout = create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 2)}).Parent = list
+    local listLayout = create("UIListLayout", {SortOrder = Enum.SortOrder.LayoutOrder, Padding = UDim.new(0, 2)})
+    listLayout.Parent = list
 
     --// Populate list
     for i, option in ipairs(options) do
@@ -2173,7 +2176,8 @@ function MysteriousUI:CreateInfoCard(tab, data)
     local layout = create("UIListLayout", {
         SortOrder = Enum.SortOrder.LayoutOrder,
         Padding = UDim.new(0, 4),
-    }).Parent = frame
+    })
+    layout.Parent = frame
 
     --// Icon (optional)
     if data.Icon then
@@ -2386,7 +2390,8 @@ function MysteriousUI:CreateToggleGroup(tab, data)
     local layout = create("UIListLayout", {
         SortOrder = Enum.SortOrder.LayoutOrder,
         Padding = UDim.new(0, 2),
-    }).Parent = frame
+    })
+    layout.Parent = frame
 
     local elements = {}
     for i, toggleData in ipairs(toggles) do
@@ -2535,7 +2540,8 @@ function MysteriousUI:CreateProgressRing(tab, data)
         Color = color,
         Thickness = thickness,
         Transparency = 0,
-    }).Parent = fillCircle
+    })
+    fillStroke.Parent = fillCircle
 
     local valueLabel = create("TextLabel", {
         Size = UDim2.new(0, size, 0, size),
@@ -2762,7 +2768,8 @@ function MysteriousUI:CreateButtonGroup(tab, data)
         FillDirection = Enum.FillDirection.Horizontal,
         HorizontalAlignment = Enum.HorizontalAlignment.Left,
         Padding = UDim.new(0, 6),
-    }).Parent = frame
+    })
+    layout.Parent = frame
 
     for i, btnData in ipairs(buttons) do
         local btn = create("TextButton", {
