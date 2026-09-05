@@ -63,214 +63,214 @@ end
 --// ============================================================
 local Themes = {
     Dark = {
-        Background = Color3.fromRGB(18, 18, 18),
-        Surface = Color3.fromRGB(25, 25, 25),
-        SurfaceHover = Color3.fromRGB(30, 30, 30),
-        Element = Color3.fromRGB(32, 32, 32),
-        ElementHover = Color3.fromRGB(38, 38, 38),
-        Stroke = Color3.fromRGB(45, 45, 45),
-        StrokeLight = Color3.fromRGB(55, 55, 55),
-        Accent = Color3.fromRGB(0, 120, 215),
-        AccentHover = Color3.fromRGB(0, 140, 245),
-        AccentDark = Color3.fromRGB(0, 80, 150),
-        Text = Color3.fromRGB(235, 235, 235),
-        TextDim = Color3.fromRGB(160, 160, 160),
-        TextDark = Color3.fromRGB(100, 100, 100),
-        Success = Color3.fromRGB(40, 180, 80),
-        Warning = Color3.fromRGB(240, 180, 40),
-        Error = Color3.fromRGB(220, 50, 50),
-        ToggleOn = Color3.fromRGB(0, 146, 214),
-        ToggleOff = Color3.fromRGB(80, 80, 80),
-        SliderTrack = Color3.fromRGB(40, 40, 40),
-        SliderFill = Color3.fromRGB(0, 120, 215),
-        TabActive = Color3.fromRGB(0, 120, 215),
-        TabInactive = Color3.fromRGB(40, 40, 40),
-        TabText = Color3.fromRGB(180, 180, 180),
+        Background = Color3.fromRGB(21, 21, 26),
+        Surface = Color3.fromRGB(28, 28, 34),
+        SurfaceHover = Color3.fromRGB(35, 35, 42),
+        Element = Color3.fromRGB(30, 30, 37),
+        ElementHover = Color3.fromRGB(38, 38, 46),
+        Stroke = Color3.fromRGB(48, 48, 58),
+        StrokeLight = Color3.fromRGB(58, 58, 70),
+        Accent = Color3.fromRGB(88, 166, 255),
+        AccentHover = Color3.fromRGB(110, 180, 255),
+        AccentDark = Color3.fromRGB(60, 130, 210),
+        Text = Color3.fromRGB(237, 237, 242),
+        TextDim = Color3.fromRGB(155, 155, 170),
+        TextDark = Color3.fromRGB(95, 95, 110),
+        Success = Color3.fromRGB(80, 200, 120),
+        Warning = Color3.fromRGB(255, 200, 60),
+        Error = Color3.fromRGB(240, 70, 80),
+        ToggleOn = Color3.fromRGB(88, 166, 255),
+        ToggleOff = Color3.fromRGB(60, 60, 72),
+        SliderTrack = Color3.fromRGB(40, 40, 50),
+        SliderFill = Color3.fromRGB(88, 166, 255),
+        TabActive = Color3.fromRGB(88, 166, 255),
+        TabInactive = Color3.fromRGB(32, 32, 40),
+        TabText = Color3.fromRGB(150, 150, 168),
         TabTextActive = Color3.fromRGB(255, 255, 255),
-        Scrollbar = Color3.fromRGB(60, 60, 60),
-        ScrollbarHover = Color3.fromRGB(80, 80, 80),
-        Dropdown = Color3.fromRGB(30, 30, 30),
-        DropdownHover = Color3.fromRGB(40, 40, 40),
-        Input = Color3.fromRGB(22, 22, 22),
-        InputStroke = Color3.fromRGB(50, 50, 50),
-        Placeholder = Color3.fromRGB(120, 120, 120),
-        Notification = Color3.fromRGB(22, 22, 22),
-        NotificationStroke = Color3.fromRGB(50, 50, 50),
+        Scrollbar = Color3.fromRGB(55, 55, 66),
+        ScrollbarHover = Color3.fromRGB(70, 70, 82),
+        Dropdown = Color3.fromRGB(28, 28, 34),
+        DropdownHover = Color3.fromRGB(36, 36, 44),
+        Input = Color3.fromRGB(24, 24, 30),
+        InputStroke = Color3.fromRGB(50, 50, 60),
+        Placeholder = Color3.fromRGB(110, 110, 128),
+        Notification = Color3.fromRGB(28, 28, 34),
+        NotificationStroke = Color3.fromRGB(50, 50, 60),
     },
     Light = {
-        Background = Color3.fromRGB(245, 245, 245),
+        Background = Color3.fromRGB(244, 244, 248),
         Surface = Color3.fromRGB(255, 255, 255),
-        SurfaceHover = Color3.fromRGB(250, 250, 250),
-        Element = Color3.fromRGB(250, 250, 250),
-        ElementHover = Color3.fromRGB(240, 240, 240),
-        Stroke = Color3.fromRGB(220, 220, 220),
-        StrokeLight = Color3.fromRGB(200, 200, 200),
-        Accent = Color3.fromRGB(0, 102, 204),
-        AccentHover = Color3.fromRGB(0, 122, 234),
-        AccentDark = Color3.fromRGB(0, 80, 160),
-        Text = Color3.fromRGB(30, 30, 30),
-        TextDim = Color3.fromRGB(120, 120, 120),
-        TextDark = Color3.fromRGB(160, 160, 160),
-        Success = Color3.fromRGB(34, 160, 68),
-        Warning = Color3.fromRGB(200, 150, 30),
-        Error = Color3.fromRGB(200, 40, 40),
-        ToggleOn = Color3.fromRGB(0, 120, 200),
-        ToggleOff = Color3.fromRGB(180, 180, 180),
-        SliderTrack = Color3.fromRGB(220, 220, 220),
-        SliderFill = Color3.fromRGB(0, 102, 204),
-        TabActive = Color3.fromRGB(0, 102, 204),
-        TabInactive = Color3.fromRGB(230, 230, 230),
-        TabText = Color3.fromRGB(100, 100, 100),
+        SurfaceHover = Color3.fromRGB(248, 248, 252),
+        Element = Color3.fromRGB(250, 250, 254),
+        ElementHover = Color3.fromRGB(240, 240, 246),
+        Stroke = Color3.fromRGB(225, 225, 232),
+        StrokeLight = Color3.fromRGB(210, 210, 218),
+        Accent = Color3.fromRGB(40, 120, 220),
+        AccentHover = Color3.fromRGB(55, 138, 240),
+        AccentDark = Color3.fromRGB(30, 95, 185),
+        Text = Color3.fromRGB(28, 28, 34),
+        TextDim = Color3.fromRGB(110, 110, 125),
+        TextDark = Color3.fromRGB(155, 155, 168),
+        Success = Color3.fromRGB(30, 165, 70),
+        Warning = Color3.fromRGB(210, 155, 25),
+        Error = Color3.fromRGB(210, 45, 50),
+        ToggleOn = Color3.fromRGB(40, 120, 220),
+        ToggleOff = Color3.fromRGB(195, 195, 205),
+        SliderTrack = Color3.fromRGB(228, 228, 236),
+        SliderFill = Color3.fromRGB(40, 120, 220),
+        TabActive = Color3.fromRGB(40, 120, 220),
+        TabInactive = Color3.fromRGB(235, 235, 242),
+        TabText = Color3.fromRGB(100, 100, 115),
         TabTextActive = Color3.fromRGB(255, 255, 255),
-        Scrollbar = Color3.fromRGB(200, 200, 200),
-        ScrollbarHover = Color3.fromRGB(170, 170, 170),
+        Scrollbar = Color3.fromRGB(205, 205, 215),
+        ScrollbarHover = Color3.fromRGB(180, 180, 192),
         Dropdown = Color3.fromRGB(255, 255, 255),
-        DropdownHover = Color3.fromRGB(245, 245, 245),
+        DropdownHover = Color3.fromRGB(248, 248, 252),
         Input = Color3.fromRGB(255, 255, 255),
-        InputStroke = Color3.fromRGB(200, 200, 200),
-        Placeholder = Color3.fromRGB(160, 160, 160),
+        InputStroke = Color3.fromRGB(215, 215, 225),
+        Placeholder = Color3.fromRGB(165, 165, 178),
         Notification = Color3.fromRGB(255, 255, 255),
-        NotificationStroke = Color3.fromRGB(220, 220, 220),
+        NotificationStroke = Color3.fromRGB(220, 220, 228),
     },
     AMOLED = {
         Background = Color3.fromRGB(0, 0, 0),
-        Surface = Color3.fromRGB(10, 10, 10),
-        SurfaceHover = Color3.fromRGB(18, 18, 18),
-        Element = Color3.fromRGB(15, 15, 15),
-        ElementHover = Color3.fromRGB(25, 25, 25),
-        Stroke = Color3.fromRGB(30, 30, 30),
-        StrokeLight = Color3.fromRGB(40, 40, 40),
-        Accent = Color3.fromRGB(0, 150, 255),
-        AccentHover = Color3.fromRGB(30, 170, 255),
-        AccentDark = Color3.fromRGB(0, 100, 200),
+        Surface = Color3.fromRGB(8, 8, 8),
+        SurfaceHover = Color3.fromRGB(16, 16, 16),
+        Element = Color3.fromRGB(12, 12, 12),
+        ElementHover = Color3.fromRGB(22, 22, 22),
+        Stroke = Color3.fromRGB(28, 28, 28),
+        StrokeLight = Color3.fromRGB(38, 38, 38),
+        Accent = Color3.fromRGB(80, 160, 255),
+        AccentHover = Color3.fromRGB(100, 175, 255),
+        AccentDark = Color3.fromRGB(55, 125, 210),
         Text = Color3.fromRGB(240, 240, 240),
-        TextDim = Color3.fromRGB(150, 150, 150),
-        TextDark = Color3.fromRGB(80, 80, 80),
-        Success = Color3.fromRGB(0, 200, 80),
-        Warning = Color3.fromRGB(255, 200, 0),
-        Error = Color3.fromRGB(255, 50, 50),
-        ToggleOn = Color3.fromRGB(0, 150, 255),
-        ToggleOff = Color3.fromRGB(50, 50, 50),
-        SliderTrack = Color3.fromRGB(25, 25, 25),
-        SliderFill = Color3.fromRGB(0, 150, 255),
-        TabActive = Color3.fromRGB(0, 150, 255),
-        TabInactive = Color3.fromRGB(20, 20, 20),
-        TabText = Color3.fromRGB(140, 140, 140),
+        TextDim = Color3.fromRGB(140, 140, 140),
+        TextDark = Color3.fromRGB(75, 75, 75),
+        Success = Color3.fromRGB(50, 210, 90),
+        Warning = Color3.fromRGB(255, 210, 40),
+        Error = Color3.fromRGB(250, 60, 70),
+        ToggleOn = Color3.fromRGB(80, 160, 255),
+        ToggleOff = Color3.fromRGB(45, 45, 45),
+        SliderTrack = Color3.fromRGB(22, 22, 22),
+        SliderFill = Color3.fromRGB(80, 160, 255),
+        TabActive = Color3.fromRGB(80, 160, 255),
+        TabInactive = Color3.fromRGB(15, 15, 15),
+        TabText = Color3.fromRGB(130, 130, 130),
         TabTextActive = Color3.fromRGB(255, 255, 255),
-        Scrollbar = Color3.fromRGB(40, 40, 40),
-        ScrollbarHover = Color3.fromRGB(60, 60, 60),
-        Dropdown = Color3.fromRGB(10, 10, 10),
-        DropdownHover = Color3.fromRGB(20, 20, 20),
-        Input = Color3.fromRGB(5, 5, 5),
-        InputStroke = Color3.fromRGB(35, 35, 35),
-        Placeholder = Color3.fromRGB(100, 100, 100),
-        Notification = Color3.fromRGB(10, 10, 10),
-        NotificationStroke = Color3.fromRGB(35, 35, 35),
+        Scrollbar = Color3.fromRGB(38, 38, 38),
+        ScrollbarHover = Color3.fromRGB(55, 55, 55),
+        Dropdown = Color3.fromRGB(8, 8, 8),
+        DropdownHover = Color3.fromRGB(18, 18, 18),
+        Input = Color3.fromRGB(4, 4, 4),
+        InputStroke = Color3.fromRGB(32, 32, 32),
+        Placeholder = Color3.fromRGB(95, 95, 95),
+        Notification = Color3.fromRGB(8, 8, 8),
+        NotificationStroke = Color3.fromRGB(32, 32, 32),
     },
     Nord = {
         Background = Color3.fromRGB(46, 52, 64),
-        Surface = Color3.fromRGB(59, 66, 82),
-        SurfaceHover = Color3.fromRGB(67, 76, 94),
-        Element = Color3.fromRGB(67, 76, 94),
-        ElementHover = Color3.fromRGB(76, 86, 106),
+        Surface = Color3.fromRGB(55, 62, 76),
+        SurfaceHover = Color3.fromRGB(64, 72, 88),
+        Element = Color3.fromRGB(59, 66, 82),
+        ElementHover = Color3.fromRGB(68, 76, 96),
         Stroke = Color3.fromRGB(76, 86, 106),
         StrokeLight = Color3.fromRGB(89, 100, 120),
-        Accent = Color3.fromRGB(136, 192, 208),
-        AccentHover = Color3.fromRGB(143, 188, 187),
-        AccentDark = Color3.fromRGB(94, 129, 172),
+        Accent = Color3.fromRGB(143, 188, 187),
+        AccentHover = Color3.fromRGB(155, 198, 197),
+        AccentDark = Color3.fromRGB(108, 155, 154),
         Text = Color3.fromRGB(236, 239, 244),
-        TextDim = Color3.fromRGB(180, 190, 205),
-        TextDark = Color3.fromRGB(120, 130, 150),
+        TextDim = Color3.fromRGB(175, 185, 200),
+        TextDark = Color3.fromRGB(120, 130, 148),
         Success = Color3.fromRGB(163, 190, 140),
         Warning = Color3.fromRGB(235, 203, 139),
         Error = Color3.fromRGB(191, 97, 106),
-        ToggleOn = Color3.fromRGB(136, 192, 208),
-        ToggleOff = Color3.fromRGB(76, 86, 106),
-        SliderTrack = Color3.fromRGB(59, 66, 82),
-        SliderFill = Color3.fromRGB(136, 192, 208),
-        TabActive = Color3.fromRGB(136, 192, 208),
-        TabInactive = Color3.fromRGB(59, 66, 82),
-        TabText = Color3.fromRGB(180, 190, 205),
-        TabTextActive = Color3.fromRGB(236, 239, 244),
-        Scrollbar = Color3.fromRGB(76, 86, 106),
-        ScrollbarHover = Color3.fromRGB(89, 100, 120),
-        Dropdown = Color3.fromRGB(59, 66, 82),
-        DropdownHover = Color3.fromRGB(67, 76, 94),
+        ToggleOn = Color3.fromRGB(143, 188, 187),
+        ToggleOff = Color3.fromRGB(68, 76, 96),
+        SliderTrack = Color3.fromRGB(50, 56, 70),
+        SliderFill = Color3.fromRGB(143, 188, 187),
+        TabActive = Color3.fromRGB(143, 188, 187),
+        TabInactive = Color3.fromRGB(50, 56, 70),
+        TabText = Color3.fromRGB(170, 180, 198),
+        TabTextActive = Color3.fromRGB(255, 255, 255),
+        Scrollbar = Color3.fromRGB(68, 76, 96),
+        ScrollbarHover = Color3.fromRGB(82, 92, 112),
+        Dropdown = Color3.fromRGB(55, 62, 76),
+        DropdownHover = Color3.fromRGB(64, 72, 88),
         Input = Color3.fromRGB(46, 52, 64),
-        InputStroke = Color3.fromRGB(76, 86, 106),
-        Placeholder = Color3.fromRGB(120, 130, 150),
-        Notification = Color3.fromRGB(59, 66, 82),
-        NotificationStroke = Color3.fromRGB(76, 86, 106),
+        InputStroke = Color3.fromRGB(68, 76, 96),
+        Placeholder = Color3.fromRGB(120, 130, 148),
+        Notification = Color3.fromRGB(55, 62, 76),
+        NotificationStroke = Color3.fromRGB(68, 76, 96),
     },
     TokyoNight = {
         Background = Color3.fromRGB(26, 27, 38),
-        Surface = Color3.fromRGB(36, 40, 59),
-        SurfaceHover = Color3.fromRGB(44, 48, 68),
-        Element = Color3.fromRGB(44, 48, 68),
-        ElementHover = Color3.fromRGB(54, 58, 78),
-        Stroke = Color3.fromRGB(54, 58, 78),
-        StrokeLight = Color3.fromRGB(68, 72, 92),
-        Accent = Color3.fromRGB(122, 162, 247),
-        AccentHover = Color3.fromRGB(137, 173, 250),
-        AccentDark = Color3.fromRGB(86, 122, 210),
-        Text = Color3.fromRGB(192, 202, 245),
-        TextDim = Color3.fromRGB(137, 143, 180),
-        TextDark = Color3.fromRGB(86, 90, 120),
+        Surface = Color3.fromRGB(33, 37, 52),
+        SurfaceHover = Color3.fromRGB(40, 44, 62),
+        Element = Color3.fromRGB(36, 40, 56),
+        ElementHover = Color3.fromRGB(44, 48, 68),
+        Stroke = Color3.fromRGB(52, 56, 76),
+        StrokeLight = Color3.fromRGB(65, 70, 92),
+        Accent = Color3.fromRGB(125, 165, 248),
+        AccentHover = Color3.fromRGB(140, 178, 252),
+        AccentDark = Color3.fromRGB(92, 128, 210),
+        Text = Color3.fromRGB(195, 205, 248),
+        TextDim = Color3.fromRGB(135, 142, 178),
+        TextDark = Color3.fromRGB(82, 86, 118),
         Success = Color3.fromRGB(158, 206, 106),
         Warning = Color3.fromRGB(224, 175, 104),
         Error = Color3.fromRGB(247, 118, 142),
-        ToggleOn = Color3.fromRGB(122, 162, 247),
-        ToggleOff = Color3.fromRGB(54, 58, 78),
-        SliderTrack = Color3.fromRGB(36, 40, 59),
-        SliderFill = Color3.fromRGB(122, 162, 247),
-        TabActive = Color3.fromRGB(122, 162, 247),
-        TabInactive = Color3.fromRGB(36, 40, 59),
-        TabText = Color3.fromRGB(137, 143, 180),
-        TabTextActive = Color3.fromRGB(192, 202, 245),
-        Scrollbar = Color3.fromRGB(54, 58, 78),
-        ScrollbarHover = Color3.fromRGB(68, 72, 92),
-        Dropdown = Color3.fromRGB(36, 40, 59),
-        DropdownHover = Color3.fromRGB(44, 48, 68),
+        ToggleOn = Color3.fromRGB(125, 165, 248),
+        ToggleOff = Color3.fromRGB(48, 52, 70),
+        SliderTrack = Color3.fromRGB(30, 34, 48),
+        SliderFill = Color3.fromRGB(125, 165, 248),
+        TabActive = Color3.fromRGB(125, 165, 248),
+        TabInactive = Color3.fromRGB(30, 34, 48),
+        TabText = Color3.fromRGB(132, 138, 172),
+        TabTextActive = Color3.fromRGB(255, 255, 255),
+        Scrollbar = Color3.fromRGB(48, 52, 70),
+        ScrollbarHover = Color3.fromRGB(62, 66, 88),
+        Dropdown = Color3.fromRGB(33, 37, 52),
+        DropdownHover = Color3.fromRGB(40, 44, 62),
         Input = Color3.fromRGB(26, 27, 38),
-        InputStroke = Color3.fromRGB(54, 58, 78),
-        Placeholder = Color3.fromRGB(86, 90, 120),
-        Notification = Color3.fromRGB(36, 40, 59),
-        NotificationStroke = Color3.fromRGB(54, 58, 78),
+        InputStroke = Color3.fromRGB(48, 52, 70),
+        Placeholder = Color3.fromRGB(82, 86, 118),
+        Notification = Color3.fromRGB(33, 37, 52),
+        NotificationStroke = Color3.fromRGB(48, 52, 70),
     },
     RosePine = {
         Background = Color3.fromRGB(25, 23, 36),
-        Surface = Color3.fromRGB(38, 35, 53),
-        SurfaceHover = Color3.fromRGB(49, 46, 65),
-        Element = Color3.fromRGB(49, 46, 65),
-        ElementHover = Color3.fromRGB(60, 56, 76),
-        Stroke = Color3.fromRGB(60, 56, 76),
-        StrokeLight = Color3.fromRGB(84, 80, 98),
-        Accent = Color3.fromRGB(224, 222, 244),
-        AccentHover = Color3.fromRGB(245, 224, 220),
-        AccentDark = Color3.fromRGB(144, 140, 170),
+        Surface = Color3.fromRGB(35, 32, 50),
+        SurfaceHover = Color3.fromRGB(44, 42, 60),
+        Element = Color3.fromRGB(38, 35, 53),
+        ElementHover = Color3.fromRGB(48, 45, 66),
+        Stroke = Color3.fromRGB(58, 54, 74),
+        StrokeLight = Color3.fromRGB(72, 68, 90),
+        Accent = Color3.fromRGB(196, 167, 231),
+        AccentHover = Color3.fromRGB(210, 182, 240),
+        AccentDark = Color3.fromRGB(155, 130, 190),
         Text = Color3.fromRGB(224, 222, 244),
-        TextDim = Color3.fromRGB(144, 140, 170),
-        TextDark = Color3.fromRGB(110, 106, 134),
+        TextDim = Color3.fromRGB(140, 136, 166),
+        TextDark = Color3.fromRGB(100, 96, 128),
         Success = Color3.fromRGB(156, 207, 216),
         Warning = Color3.fromRGB(246, 193, 119),
         Error = Color3.fromRGB(235, 111, 146),
-        ToggleOn = Color3.fromRGB(224, 222, 244),
-        ToggleOff = Color3.fromRGB(60, 56, 76),
-        SliderTrack = Color3.fromRGB(38, 35, 53),
-        SliderFill = Color3.fromRGB(224, 222, 244),
-        TabActive = Color3.fromRGB(224, 222, 244),
-        TabInactive = Color3.fromRGB(38, 35, 53),
-        TabText = Color3.fromRGB(144, 140, 170),
-        TabTextActive = Color3.fromRGB(224, 222, 244),
-        Scrollbar = Color3.fromRGB(60, 56, 76),
-        ScrollbarHover = Color3.fromRGB(84, 80, 98),
-        Dropdown = Color3.fromRGB(38, 35, 53),
-        DropdownHover = Color3.fromRGB(49, 46, 65),
+        ToggleOn = Color3.fromRGB(196, 167, 231),
+        ToggleOff = Color3.fromRGB(52, 48, 68),
+        SliderTrack = Color3.fromRGB(32, 30, 46),
+        SliderFill = Color3.fromRGB(196, 167, 231),
+        TabActive = Color3.fromRGB(196, 167, 231),
+        TabInactive = Color3.fromRGB(32, 30, 46),
+        TabText = Color3.fromRGB(135, 130, 160),
+        TabTextActive = Color3.fromRGB(255, 255, 255),
+        Scrollbar = Color3.fromRGB(52, 48, 68),
+        ScrollbarHover = Color3.fromRGB(68, 64, 86),
+        Dropdown = Color3.fromRGB(35, 32, 50),
+        DropdownHover = Color3.fromRGB(44, 42, 60),
         Input = Color3.fromRGB(25, 23, 36),
-        InputStroke = Color3.fromRGB(60, 56, 76),
-        Placeholder = Color3.fromRGB(110, 106, 134),
-        Notification = Color3.fromRGB(38, 35, 53),
-        NotificationStroke = Color3.fromRGB(60, 56, 76),
+        InputStroke = Color3.fromRGB(52, 48, 68),
+        Placeholder = Color3.fromRGB(95, 90, 122),
+        Notification = Color3.fromRGB(35, 32, 50),
+        NotificationStroke = Color3.fromRGB(52, 48, 68),
     },
 }
 
@@ -470,23 +470,25 @@ end
 local NotificationManager = {}
 NotificationManager.__index = NotificationManager
 
-function NotificationManager.new(container)
+function NotificationManager.new(container, theme)
     local self = setmetatable({}, NotificationManager)
     self.Container = container
+    self.Theme = theme or Themes.Dark
     self.Queue = {}
     return self
 end
 
 function NotificationManager:Show(data)
-    local theme = Themes.Dark
+    local theme = self.Theme or Themes.Dark
     local notif = create("Frame", {
         Size = UDim2.new(1, 0, 0, 0),
         BackgroundColor3 = theme.Notification,
         BorderSizePixel = 0,
+        ZIndex = 999,
         Parent = self.Container,
     })
     create("UICorner", {CornerRadius = UDim.new(0, 8)}).Parent = notif
-    create("UIStroke", {Color = theme.NotificationStroke, Thickness = 1}).Parent = notif
+    create("UIStroke", {Color = theme.NotificationStroke, Thickness = 1, ZIndex = 999}).Parent = notif
     create("UIPadding", {PaddingTop = UDim.new(0, 12), PaddingBottom = UDim.new(0, 12), PaddingLeft = UDim.new(0, 14), PaddingRight = UDim.new(0, 14)}).Parent = notif
 
     local title = create("TextLabel", {
@@ -497,12 +499,12 @@ function NotificationManager:Show(data)
         TextSize = 14,
         TextColor3 = theme.Text,
         TextXAlignment = Enum.TextXAlignment.Left,
+        ZIndex = 999,
         Parent = notif,
     })
 
     local content = create("TextLabel", {
         Size = UDim2.new(1, 0, 0, 0),
-        Position = UDim2.new(0, 0, 0, 24),
         BackgroundTransparency = 1,
         Text = data.Content or "",
         Font = Enum.Font.Gotham,
@@ -510,6 +512,7 @@ function NotificationManager:Show(data)
         TextColor3 = theme.TextDim,
         TextWrapped = true,
         TextXAlignment = Enum.TextXAlignment.Left,
+        ZIndex = 999,
         Parent = notif,
     })
     content.AutomaticSize = Enum.AutomaticSize.Y
@@ -525,9 +528,9 @@ function NotificationManager:Show(data)
     content.TextTransparency = 1
 
     task.spawn(function()
-        tween(notif, TweenInfo.new(0.3), {BackgroundTransparency = 0.05})
+        tween(notif, TweenInfo.new(0.3), {BackgroundTransparency = 0})
         tween(title, TweenInfo.new(0.3), {TextTransparency = 0})
-        tween(content, TweenInfo.new(0.3), {TextTransparency = 0.15})
+        tween(content, TweenInfo.new(0.3), {TextTransparency = 0})
     end)
 
     --// Auto remove
@@ -614,55 +617,60 @@ function MysteriousUI.new(config)
         Size = UDim2.new(1, 0, 0, 44),
         BackgroundColor3 = self.Theme.Surface,
         BorderSizePixel = 0,
+        ClipsDescendants = true,
         Parent = mainFrame,
     })
     create("UICorner", {CornerRadius = UDim.new(0, 10)}).Parent = topbar
+    create("Frame", {
+        Size = UDim2.new(1, 0, 0, 1),
+        Position = UDim2.new(0, 0, 1, -1),
+        BackgroundColor3 = self.Theme.Stroke,
+        BorderSizePixel = 0,
+        Parent = topbar,
+    })
 
     --// Title
     local title = create("TextLabel", {
         Name = "Title",
-        Size = UDim2.new(1, -100, 1, 0),
-        Position = UDim2.new(0, 16, 0, 0),
+        Size = UDim2.new(1, -80, 1, 0),
+        Position = UDim2.new(0.5, 0, 0, 0),
+        AnchorPoint = Vector2.new(0.5, 0),
         BackgroundTransparency = 1,
         Text = config.Name or "Mysterious UI",
         Font = Enum.Font.GothamBold,
-        TextSize = 15,
+        TextSize = 14,
         TextColor3 = self.Theme.Text,
-        TextXAlignment = Enum.TextXAlignment.Left,
+        TextXAlignment = Enum.TextXAlignment.Center,
         Parent = topbar,
     })
 
     --// Close button
     local closeBtn = create("TextButton", {
         Name = "Close",
-        Size = UDim2.new(0, 30, 0, 30),
-        Position = UDim2.new(1, -40, 0, 7),
+        Size = UDim2.new(0, 14, 0, 14),
+        Position = UDim2.new(0, 16, 0.5, 0),
+        AnchorPoint = Vector2.new(0, 0.5),
         BackgroundColor3 = self.Theme.Error,
-        BackgroundTransparency = 0.8,
-        Text = "×",
-        Font = Enum.Font.GothamBold,
-        TextSize = 18,
-        TextColor3 = self.Theme.Text,
+        BackgroundTransparency = 0,
+        Text = "",
         AutoButtonColor = false,
         Parent = topbar,
     })
-    create("UICorner", {CornerRadius = UDim.new(0, 6)}).Parent = closeBtn
+    create("UICorner", {CornerRadius = UDim.new(1, 0)}).Parent = closeBtn
 
     --// Minimize button
     local minBtn = create("TextButton", {
         Name = "Minimize",
-        Size = UDim2.new(0, 30, 0, 30),
-        Position = UDim2.new(1, -76, 0, 7),
+        Size = UDim2.new(0, 14, 0, 14),
+        Position = UDim2.new(0, 36, 0.5, 0),
+        AnchorPoint = Vector2.new(0, 0.5),
         BackgroundColor3 = self.Theme.Warning,
-        BackgroundTransparency = 0.8,
-        Text = "−",
-        Font = Enum.Font.GothamBold,
-        TextSize = 18,
-        TextColor3 = self.Theme.Text,
+        BackgroundTransparency = 0,
+        Text = "",
         AutoButtonColor = false,
         Parent = topbar,
     })
-    create("UICorner", {CornerRadius = UDim.new(0, 6)}).Parent = minBtn
+    create("UICorner", {CornerRadius = UDim.new(1, 0)}).Parent = minBtn
 
     self.Main = mainFrame
     self.Topbar = topbar
@@ -670,13 +678,13 @@ function MysteriousUI.new(config)
     --// Search bar for filtering tabs
     local searchContainer = create("Frame", {
         Name = "SearchContainer",
-        Size = UDim2.new(1, -16, 0, 32),
-        Position = UDim2.new(0, 8, 0, 48),
+        Size = UDim2.new(1, -20, 0, 32),
+        Position = UDim2.new(0, 10, 0, 50),
         BackgroundColor3 = self.Theme.Element,
         BorderSizePixel = 0,
         Parent = mainFrame,
     })
-    create("UICorner", {CornerRadius = UDim.new(0, 6)}).Parent = searchContainer
+    create("UICorner", {CornerRadius = UDim.new(0, 8)}).Parent = searchContainer
     create("UIStroke", {Color = self.Theme.Stroke, Thickness = 1}).Parent = searchContainer
 
     local searchIcon = create("TextLabel", {
@@ -728,11 +736,18 @@ function MysteriousUI.new(config)
     local tabBarContainer = create("Frame", {
         Name = "TabBarContainer",
         Size = UDim2.new(1, 0, 0, 38),
-        Position = UDim2.new(0, 0, 0, 84),
+        Position = UDim2.new(0, 0, 0, 86),
         BackgroundColor3 = self.Theme.Surface,
         BorderSizePixel = 0,
         ClipsDescendants = true,
         Parent = mainFrame,
+    })
+    create("Frame", {
+        Size = UDim2.new(1, 0, 0, 1),
+        Position = UDim2.new(0, 0, 0, 0),
+        BackgroundColor3 = self.Theme.Stroke,
+        BorderSizePixel = 0,
+        Parent = tabBarContainer,
     })
 
     local tabBarScroll = create("ScrollingFrame", {
@@ -761,7 +776,7 @@ function MysteriousUI.new(config)
     local contentArea = create("Frame", {
         Name = "Content",
         Size = UDim2.new(1, 0, 1, -126),
-        Position = UDim2.new(0, 0, 0, 122),
+        Position = UDim2.new(0, 0, 0, 124),
         BackgroundColor3 = self.Theme.Background,
         BorderSizePixel = 0,
         ClipsDescendants = true,
@@ -771,10 +786,11 @@ function MysteriousUI.new(config)
     --// Notification container
     local notifContainer = create("Frame", {
         Name = "Notifications",
-        Size = UDim2.new(0, 300, 1, 0),
-        Position = UDim2.new(1, 10, 0, 0),
+        Size = UDim2.new(0, 320, 0, 400),
+        Position = UDim2.new(1, -330, 0, 10),
         BackgroundTransparency = 1,
         ClipsDescendants = false,
+        ZIndex = 999,
         Parent = screenGui,
     })
     create("UIListLayout", {
@@ -784,23 +800,26 @@ function MysteriousUI.new(config)
     }).Parent = notifContainer
 
     self.ContentArea = contentArea
-    self.Notifications = NotificationManager.new(notifContainer)
+    self.Notifications = NotificationManager.new(notifContainer, self.Theme)
 
     --// Dragging
     local dragging, dragStart, startPos
-    topbar.InputBegan:Connect(function(input)
+    local function addConn(conn)
+        table.insert(self._connections, conn)
+    end
+    addConn(topbar.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
             dragging = true
             dragStart = input.Position
             startPos = mainFrame.Position
         end
-    end)
-    topbar.InputEnded:Connect(function(input)
+    end))
+    addConn(topbar.InputEnded:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
             dragging = false
         end
-    end)
-    Services.UserInputService.InputChanged:Connect(function(input)
+    end))
+    addConn(Services.UserInputService.InputChanged:Connect(function(input)
         if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
             local delta = input.Position - dragStart
             mainFrame.Position = UDim2.new(
@@ -808,18 +827,20 @@ function MysteriousUI.new(config)
                 startPos.Y.Scale, startPos.Y.Offset + delta.Y
             )
         end
-    end)
+    end))
 
-    --// Close button
+    --// Close button (hides + shows taskbar hint)
     closeBtn.MouseButton1Click:Connect(function()
-        self:Destroy()
+        mainFrame.Visible = false
+        taskbarIcon.Visible = true
+        self:Notify({Title = config.Name or "UI", Content = "Press K to reopen", Duration = 4})
     end)
-    closeBtn.MouseEnter:Connect(function()
+    addConn(closeBtn.MouseEnter:Connect(function()
         tween(closeBtn, TweenInfo.new(0.15), {BackgroundTransparency = 0.3})
-    end)
-    closeBtn.MouseLeave:Connect(function()
-        tween(closeBtn, TweenInfo.new(0.15), {BackgroundTransparency = 0.8})
-    end)
+    end))
+    addConn(closeBtn.MouseLeave:Connect(function()
+        tween(closeBtn, TweenInfo.new(0.15), {BackgroundTransparency = 0})
+    end))
 
     --// Window resize (bottom-right corner)
     local resizeHandle = create("TextButton", {
@@ -838,37 +859,37 @@ function MysteriousUI.new(config)
     })
 
     local resizing, resizeStart, resizeStartSize
-    resizeHandle.InputBegan:Connect(function(input)
+    addConn(resizeHandle.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 then
             resizing = true
             resizeStart = input.Position
             resizeStartSize = mainFrame.AbsoluteSize
         end
-    end)
-    Services.UserInputService.InputEnded:Connect(function(input)
+    end))
+    addConn(Services.UserInputService.InputEnded:Connect(function(input)
         if resizing and input.UserInputType == Enum.UserInputType.MouseButton1 then
             resizing = false
         end
-    end)
-    Services.UserInputService.InputChanged:Connect(function(input)
+    end))
+    addConn(Services.UserInputService.InputChanged:Connect(function(input)
         if resizing and input.UserInputType == Enum.UserInputType.MouseMovement then
             local delta = input.Position - resizeStart
             local newWidth = math.clamp(resizeStartSize.X + delta.X, 380, 900)
             local newHeight = math.clamp(resizeStartSize.Y + delta.Y, 200, 800)
             mainFrame.Size = UDim2.new(0, newWidth, 0, newHeight)
         end
-    end)
+    end))
 
     --// Window transparency
     local transparency = 0
-    Services.UserInputService.InputChanged:Connect(function(input)
+    addConn(Services.UserInputService.InputChanged:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseMovement and Services.UserInputService:IsKeyDown(Enum.KeyCode.LeftAlt) then
             local mouseX = input.Position.X
             local screenW = Services.GuiService:GetGuiInset().X + workspace.CurrentCamera.ViewportSize.X
             transparency = clamp((mouseX / screenW) * 0.6, 0, 0.6)
             mainFrame.BackgroundTransparency = transparency
         end
-    end)
+    end))
 
     --// Minimize to taskbar icon
     local taskbarIcon = create("TextButton", {
@@ -889,22 +910,22 @@ function MysteriousUI.new(config)
         Size = UDim2.new(1, -10, 1, 0),
         Position = UDim2.new(0, 5, 0, 0),
         BackgroundTransparency = 1,
-        Text = "🔧 " .. (config.Name or "UI"),
-        Font = Enum.Font.GothamBold,
-        TextSize = 12,
-        TextColor3 = self.Theme.Text,
-        TextXAlignment = Enum.TextXAlignment.Left,
+        Text = (config.Name or "UI") .. " — Click or press K",
+        Font = Enum.Font.GothamMedium,
+        TextSize = 11,
+        TextColor3 = self.Theme.TextDim,
+        TextXAlignment = Enum.TextXAlignment.Center,
         Parent = taskbarIcon,
     })
-    taskbarIcon.MouseButton1Click:Connect(function()
+    addConn(taskbarIcon.MouseButton1Click:Connect(function()
         mainFrame.Visible = true
         taskbarIcon.Visible = false
         tween(mainFrame, TweenInfo.new(0.2), {BackgroundTransparency = 0})
-    end)
+    end))
 
     --// Minimize
     local minimized = false
-    minBtn.MouseButton1Click:Connect(function()
+    addConn(minBtn.MouseButton1Click:Connect(function()
         minimized = not minimized
         if minimized then
             mainFrame.Visible = false
@@ -913,16 +934,16 @@ function MysteriousUI.new(config)
             mainFrame.Visible = true
             taskbarIcon.Visible = false
         end
-    end)
-    minBtn.MouseEnter:Connect(function()
+    end))
+    addConn(minBtn.MouseEnter:Connect(function()
         tween(minBtn, TweenInfo.new(0.15), {BackgroundTransparency = 0.3})
-    end)
-    minBtn.MouseLeave:Connect(function()
-        tween(minBtn, TweenInfo.new(0.15), {BackgroundTransparency = 0.8})
-    end)
+    end))
+    addConn(minBtn.MouseLeave:Connect(function()
+        tween(minBtn, TweenInfo.new(0.15), {BackgroundTransparency = 0})
+    end))
 
     --// Tab search filtering
-    searchBox:GetPropertyChangedSignal("Text"):Connect(function()
+    addConn(searchBox:GetPropertyChangedSignal("Text"):Connect(function()
         local query = searchBox.Text:lower()
         searchClear.Visible = query ~= ""
         for _, tab in ipairs(self.Tabs) do
@@ -932,24 +953,26 @@ function MysteriousUI.new(config)
                 tab.Button.Visible = tab.Name:lower():find(query, 1, true) ~= nil
             end
         end
-    end)
-    searchClear.MouseButton1Click:Connect(function()
+    end))
+    addConn(searchClear.MouseButton1Click:Connect(function()
         searchBox.Text = ""
         searchClear.Visible = false
-    end)
+    end))
 
     --// Keyboard: K to toggle, / to search
-    Services.UserInputService.InputBegan:Connect(function(input, processed)
+    addConn(Services.UserInputService.InputBegan:Connect(function(input, processed)
         if processed then return end
         if input.KeyCode == Enum.KeyCode.K then
             mainFrame.Visible = not mainFrame.Visible
             if mainFrame.Visible then
                 taskbarIcon.Visible = false
+            else
+                taskbarIcon.Visible = true
             end
         elseif input.KeyCode == Enum.KeyCode.Slash and mainFrame.Visible then
             searchBox:CaptureFocus()
         end
-    end)
+    end))
 
     --// Store references for cleanup
     self._connections = {}
@@ -977,7 +1000,7 @@ function MysteriousUI:CreateTab(config)
     local tabBtnWidth = math.max(80, config.Name:len() * 9 + 40 + (config.Icon and 20 or 0))
     local tabBtn = create("TextButton", {
         Name = config.Name,
-        Size = UDim2.new(0, tabBtnWidth, 0, 30),
+        Size = UDim2.new(0, tabBtnWidth, 0, 28),
         BackgroundColor3 = self.Theme.TabInactive,
         Text = "",
         AutoButtonColor = false,
@@ -1125,7 +1148,7 @@ function MysteriousUI:CreateSection(tab, name)
         BackgroundTransparency = 1,
         Text = string.upper(name),
         Font = Enum.Font.GothamBold,
-        TextSize = 11,
+        TextSize = 12,
         TextColor3 = self.Theme.Accent,
         TextXAlignment = Enum.TextXAlignment.Left,
         Parent = frame,
@@ -1449,7 +1472,7 @@ function MysteriousUI:CreateSlider(tab, data)
     local suffix = data.Suffix or ""
 
     local frame = create("Frame", {
-        Size = UDim2.new(1, 0, 0, 50),
+        Size = UDim2.new(1, 0, 0, 56),
         BackgroundTransparency = 1,
         LayoutOrder = order,
         Parent = tab.Page,
@@ -1462,12 +1485,12 @@ function MysteriousUI:CreateSlider(tab, data)
         BorderSizePixel = 0,
         Parent = frame,
     })
-    create("UICorner", {CornerRadius = UDim.new(0, 6)}).Parent = bg
+    create("UICorner", {CornerRadius = UDim.new(0, 8)}).Parent = bg
     create("UIStroke", {Color = self.Theme.Stroke, Thickness = 1}).Parent = bg
 
     local label = create("TextLabel", {
-        Size = UDim2.new(0.5, 0, 0, 20),
-        Position = UDim2.new(0, 12, 0, 6),
+        Size = UDim2.new(0.5, -12, 0, 18),
+        Position = UDim2.new(0, 12, 0, 8),
         BackgroundTransparency = 1,
         Text = data.Name or "Slider",
         Font = Enum.Font.GothamMedium,
@@ -1478,12 +1501,12 @@ function MysteriousUI:CreateSlider(tab, data)
     })
 
     local valueLabel = create("TextLabel", {
-        Size = UDim2.new(0.5, -12, 0, 20),
-        Position = UDim2.new(0.5, 0, 0, 6),
+        Size = UDim2.new(0.5, -12, 0, 18),
+        Position = UDim2.new(0.5, 0, 0, 8),
         BackgroundTransparency = 1,
         Text = tostring(current) .. suffix,
-        Font = Enum.Font.Gotham,
-        TextSize = 12,
+        Font = Enum.Font.GothamBold,
+        TextSize = 13,
         TextColor3 = self.Theme.Accent,
         TextXAlignment = Enum.TextXAlignment.Right,
         Parent = bg,
@@ -1491,7 +1514,7 @@ function MysteriousUI:CreateSlider(tab, data)
 
     local track = create("Frame", {
         Size = UDim2.new(1, -24, 0, 6),
-        Position = UDim2.new(0, 12, 0, 32),
+        Position = UDim2.new(0, 12, 0, 36),
         BackgroundColor3 = self.Theme.SliderTrack,
         BorderSizePixel = 0,
         Parent = bg,
@@ -1519,9 +1542,14 @@ function MysteriousUI:CreateSlider(tab, data)
     create("UIStroke", {Color = Color3.new(1, 1, 1), Thickness = 2, Transparency = 0.5}).Parent = knob
 
     local function updateVisual()
-        local ratio = (current - min) / (max - min)
-        fill.Size = UDim2.new(ratio, 0, 1, 0)
-        knob.Position = UDim2.new(ratio, 0, 0.5, 0)
+        local range = max - min
+        local ratio = 0
+        if range > 0 then
+            ratio = clamp((current - min) / range, 0, 1)
+        end
+        local clampedRatio = clamp(ratio, 0.04, 0.96)
+        fill.Size = UDim2.new(clampedRatio, 0, 1, 0)
+        knob.Position = UDim2.new(clampedRatio, 0, 0.5, 0)
         valueLabel.Text = tostring(current) .. suffix
     end
 
